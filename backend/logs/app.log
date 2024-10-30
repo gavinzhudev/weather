@@ -1,0 +1,1137 @@
+[2024-10-30 05:39:48] ERROR in city: Unexpected error: 'NoneType' object is not iterable
+[2024-10-30 05:39:48] ERROR in app: Exception on /api/city [GET]
+Traceback (most recent call last):
+  File "/home/debian/Projects/weather/backend/api/city.py", line 22, in get
+    data = city_service.search_city(name, 20)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/debian/Projects/weather/backend/service/city.py", line 15, in search_city
+    for city_info in self.cities:
+                     ^^^^^^^^^^^
+TypeError: 'NoneType' object is not iterable
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/debian/.cache/pypoetry/virtualenvs/backend-xUkcKsjJ-py3.12/lib/python3.12/site-packages/flask/app.py", line 880, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/debian/.cache/pypoetry/virtualenvs/backend-xUkcKsjJ-py3.12/lib/python3.12/site-packages/flask/app.py", line 865, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/debian/.cache/pypoetry/virtualenvs/backend-xUkcKsjJ-py3.12/lib/python3.12/site-packages/flask_restx/api.py", line 402, in wrapper
+    resp = resource(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/debian/.cache/pypoetry/virtualenvs/backend-xUkcKsjJ-py3.12/lib/python3.12/site-packages/flask/views.py", line 110, in view
+    return current_app.ensure_sync(self.dispatch_request)(**kwargs)  # type: ignore[no-any-return]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/debian/.cache/pypoetry/virtualenvs/backend-xUkcKsjJ-py3.12/lib/python3.12/site-packages/flask_restx/resource.py", line 41, in dispatch_request
+    resp = meth(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/debian/Projects/weather/backend/api/city.py", line 30, in get
+    abort(500, {"err_msg": str(e)})
+  File "/home/debian/.cache/pypoetry/virtualenvs/backend-xUkcKsjJ-py3.12/lib/python3.12/site-packages/werkzeug/exceptions.py", line 878, in abort
+    _aborter(status, *args, **kwargs)
+  File "/home/debian/.cache/pypoetry/virtualenvs/backend-xUkcKsjJ-py3.12/lib/python3.12/site-packages/werkzeug/exceptions.py", line 863, in __call__
+    raise self.mapping[code](*args, **kwargs)
+werkzeug.exceptions.InternalServerError: 500 Internal Server Error: {'err_msg': "'NoneType' object is not iterable"}
+[2024-10-30 05:39:49] ERROR in city: Unexpected error: 'NoneType' object is not iterable
+[2024-10-30 05:39:49] ERROR in app: Exception on /api/city [GET]
+Traceback (most recent call last):
+  File "/home/debian/Projects/weather/backend/api/city.py", line 22, in get
+    data = city_service.search_city(name, 20)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/debian/Projects/weather/backend/service/city.py", line 15, in search_city
+    for city_info in self.cities:
+                     ^^^^^^^^^^^
+TypeError: 'NoneType' object is not iterable
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/debian/.cache/pypoetry/virtualenvs/backend-xUkcKsjJ-py3.12/lib/python3.12/site-packages/flask/app.py", line 880, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/debian/.cache/pypoetry/virtualenvs/backend-xUkcKsjJ-py3.12/lib/python3.12/site-packages/flask/app.py", line 865, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/debian/.cache/pypoetry/virtualenvs/backend-xUkcKsjJ-py3.12/lib/python3.12/site-packages/flask_restx/api.py", line 402, in wrapper
+    resp = resource(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/debian/.cache/pypoetry/virtualenvs/backend-xUkcKsjJ-py3.12/lib/python3.12/site-packages/flask/views.py", line 110, in view
+    return current_app.ensure_sync(self.dispatch_request)(**kwargs)  # type: ignore[no-any-return]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/debian/.cache/pypoetry/virtualenvs/backend-xUkcKsjJ-py3.12/lib/python3.12/site-packages/flask_restx/resource.py", line 41, in dispatch_request
+    resp = meth(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/debian/Projects/weather/backend/api/city.py", line 30, in get
+    abort(500, {"err_msg": str(e)})
+  File "/home/debian/.cache/pypoetry/virtualenvs/backend-xUkcKsjJ-py3.12/lib/python3.12/site-packages/werkzeug/exceptions.py", line 878, in abort
+    _aborter(status, *args, **kwargs)
+  File "/home/debian/.cache/pypoetry/virtualenvs/backend-xUkcKsjJ-py3.12/lib/python3.12/site-packages/werkzeug/exceptions.py", line 863, in __call__
+    raise self.mapping[code](*args, **kwargs)
+werkzeug.exceptions.InternalServerError: 500 Internal Server Error: {'err_msg': "'NoneType' object is not iterable"}
+[2024-10-30 05:39:50] ERROR in city: Unexpected error: 'NoneType' object is not iterable
+[2024-10-30 05:39:50] ERROR in app: Exception on /api/city [GET]
+Traceback (most recent call last):
+  File "/home/debian/Projects/weather/backend/api/city.py", line 22, in get
+    data = city_service.search_city(name, 20)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/debian/Projects/weather/backend/service/city.py", line 15, in search_city
+    for city_info in self.cities:
+                     ^^^^^^^^^^^
+TypeError: 'NoneType' object is not iterable
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/debian/.cache/pypoetry/virtualenvs/backend-xUkcKsjJ-py3.12/lib/python3.12/site-packages/flask/app.py", line 880, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/debian/.cache/pypoetry/virtualenvs/backend-xUkcKsjJ-py3.12/lib/python3.12/site-packages/flask/app.py", line 865, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/debian/.cache/pypoetry/virtualenvs/backend-xUkcKsjJ-py3.12/lib/python3.12/site-packages/flask_restx/api.py", line 402, in wrapper
+    resp = resource(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/debian/.cache/pypoetry/virtualenvs/backend-xUkcKsjJ-py3.12/lib/python3.12/site-packages/flask/views.py", line 110, in view
+    return current_app.ensure_sync(self.dispatch_request)(**kwargs)  # type: ignore[no-any-return]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/debian/.cache/pypoetry/virtualenvs/backend-xUkcKsjJ-py3.12/lib/python3.12/site-packages/flask_restx/resource.py", line 41, in dispatch_request
+    resp = meth(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/debian/Projects/weather/backend/api/city.py", line 30, in get
+    abort(500, {"err_msg": str(e)})
+  File "/home/debian/.cache/pypoetry/virtualenvs/backend-xUkcKsjJ-py3.12/lib/python3.12/site-packages/werkzeug/exceptions.py", line 878, in abort
+    _aborter(status, *args, **kwargs)
+  File "/home/debian/.cache/pypoetry/virtualenvs/backend-xUkcKsjJ-py3.12/lib/python3.12/site-packages/werkzeug/exceptions.py", line 863, in __call__
+    raise self.mapping[code](*args, **kwargs)
+werkzeug.exceptions.InternalServerError: 500 Internal Server Error: {'err_msg': "'NoneType' object is not iterable"}
+[2024-10-30 05:39:54] ERROR in city: Unexpected error: 'NoneType' object is not iterable
+[2024-10-30 05:39:54] ERROR in app: Exception on /api/city [GET]
+Traceback (most recent call last):
+  File "/home/debian/Projects/weather/backend/api/city.py", line 22, in get
+    data = city_service.search_city(name, 20)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/debian/Projects/weather/backend/service/city.py", line 15, in search_city
+    for city_info in self.cities:
+                     ^^^^^^^^^^^
+TypeError: 'NoneType' object is not iterable
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/debian/.cache/pypoetry/virtualenvs/backend-xUkcKsjJ-py3.12/lib/python3.12/site-packages/flask/app.py", line 880, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/debian/.cache/pypoetry/virtualenvs/backend-xUkcKsjJ-py3.12/lib/python3.12/site-packages/flask/app.py", line 865, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/debian/.cache/pypoetry/virtualenvs/backend-xUkcKsjJ-py3.12/lib/python3.12/site-packages/flask_restx/api.py", line 402, in wrapper
+    resp = resource(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/debian/.cache/pypoetry/virtualenvs/backend-xUkcKsjJ-py3.12/lib/python3.12/site-packages/flask/views.py", line 110, in view
+    return current_app.ensure_sync(self.dispatch_request)(**kwargs)  # type: ignore[no-any-return]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/debian/.cache/pypoetry/virtualenvs/backend-xUkcKsjJ-py3.12/lib/python3.12/site-packages/flask_restx/resource.py", line 41, in dispatch_request
+    resp = meth(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/debian/Projects/weather/backend/api/city.py", line 30, in get
+    abort(500, {"err_msg": str(e)})
+  File "/home/debian/.cache/pypoetry/virtualenvs/backend-xUkcKsjJ-py3.12/lib/python3.12/site-packages/werkzeug/exceptions.py", line 878, in abort
+    _aborter(status, *args, **kwargs)
+  File "/home/debian/.cache/pypoetry/virtualenvs/backend-xUkcKsjJ-py3.12/lib/python3.12/site-packages/werkzeug/exceptions.py", line 863, in __call__
+    raise self.mapping[code](*args, **kwargs)
+werkzeug.exceptions.InternalServerError: 500 Internal Server Error: {'err_msg': "'NoneType' object is not iterable"}
+[2024-10-30 05:39:56] ERROR in city: Unexpected error: 'NoneType' object is not iterable
+[2024-10-30 05:39:56] ERROR in app: Exception on /api/city [GET]
+Traceback (most recent call last):
+  File "/home/debian/Projects/weather/backend/api/city.py", line 22, in get
+    data = city_service.search_city(name, 20)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/debian/Projects/weather/backend/service/city.py", line 15, in search_city
+    for city_info in self.cities:
+                     ^^^^^^^^^^^
+TypeError: 'NoneType' object is not iterable
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/debian/.cache/pypoetry/virtualenvs/backend-xUkcKsjJ-py3.12/lib/python3.12/site-packages/flask/app.py", line 880, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/debian/.cache/pypoetry/virtualenvs/backend-xUkcKsjJ-py3.12/lib/python3.12/site-packages/flask/app.py", line 865, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/debian/.cache/pypoetry/virtualenvs/backend-xUkcKsjJ-py3.12/lib/python3.12/site-packages/flask_restx/api.py", line 402, in wrapper
+    resp = resource(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/debian/.cache/pypoetry/virtualenvs/backend-xUkcKsjJ-py3.12/lib/python3.12/site-packages/flask/views.py", line 110, in view
+    return current_app.ensure_sync(self.dispatch_request)(**kwargs)  # type: ignore[no-any-return]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/debian/.cache/pypoetry/virtualenvs/backend-xUkcKsjJ-py3.12/lib/python3.12/site-packages/flask_restx/resource.py", line 41, in dispatch_request
+    resp = meth(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/debian/Projects/weather/backend/api/city.py", line 30, in get
+    abort(500, {"err_msg": str(e)})
+  File "/home/debian/.cache/pypoetry/virtualenvs/backend-xUkcKsjJ-py3.12/lib/python3.12/site-packages/werkzeug/exceptions.py", line 878, in abort
+    _aborter(status, *args, **kwargs)
+  File "/home/debian/.cache/pypoetry/virtualenvs/backend-xUkcKsjJ-py3.12/lib/python3.12/site-packages/werkzeug/exceptions.py", line 863, in __call__
+    raise self.mapping[code](*args, **kwargs)
+werkzeug.exceptions.InternalServerError: 500 Internal Server Error: {'err_msg': "'NoneType' object is not iterable"}
+[2024-10-30 05:39:57] ERROR in city: Unexpected error: 'NoneType' object is not iterable
+[2024-10-30 05:39:57] ERROR in app: Exception on /api/city [GET]
+Traceback (most recent call last):
+  File "/home/debian/Projects/weather/backend/api/city.py", line 22, in get
+    data = city_service.search_city(name, 20)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/debian/Projects/weather/backend/service/city.py", line 15, in search_city
+    for city_info in self.cities:
+                     ^^^^^^^^^^^
+TypeError: 'NoneType' object is not iterable
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/debian/.cache/pypoetry/virtualenvs/backend-xUkcKsjJ-py3.12/lib/python3.12/site-packages/flask/app.py", line 880, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/debian/.cache/pypoetry/virtualenvs/backend-xUkcKsjJ-py3.12/lib/python3.12/site-packages/flask/app.py", line 865, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/debian/.cache/pypoetry/virtualenvs/backend-xUkcKsjJ-py3.12/lib/python3.12/site-packages/flask_restx/api.py", line 402, in wrapper
+    resp = resource(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/debian/.cache/pypoetry/virtualenvs/backend-xUkcKsjJ-py3.12/lib/python3.12/site-packages/flask/views.py", line 110, in view
+    return current_app.ensure_sync(self.dispatch_request)(**kwargs)  # type: ignore[no-any-return]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/debian/.cache/pypoetry/virtualenvs/backend-xUkcKsjJ-py3.12/lib/python3.12/site-packages/flask_restx/resource.py", line 41, in dispatch_request
+    resp = meth(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/debian/Projects/weather/backend/api/city.py", line 30, in get
+    abort(500, {"err_msg": str(e)})
+  File "/home/debian/.cache/pypoetry/virtualenvs/backend-xUkcKsjJ-py3.12/lib/python3.12/site-packages/werkzeug/exceptions.py", line 878, in abort
+    _aborter(status, *args, **kwargs)
+  File "/home/debian/.cache/pypoetry/virtualenvs/backend-xUkcKsjJ-py3.12/lib/python3.12/site-packages/werkzeug/exceptions.py", line 863, in __call__
+    raise self.mapping[code](*args, **kwargs)
+werkzeug.exceptions.InternalServerError: 500 Internal Server Error: {'err_msg': "'NoneType' object is not iterable"}
+[2024-10-30 05:39:58] ERROR in city: Unexpected error: 'NoneType' object is not iterable
+[2024-10-30 05:39:58] ERROR in app: Exception on /api/city [GET]
+Traceback (most recent call last):
+  File "/home/debian/Projects/weather/backend/api/city.py", line 22, in get
+    data = city_service.search_city(name, 20)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/debian/Projects/weather/backend/service/city.py", line 15, in search_city
+    for city_info in self.cities:
+                     ^^^^^^^^^^^
+TypeError: 'NoneType' object is not iterable
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/debian/.cache/pypoetry/virtualenvs/backend-xUkcKsjJ-py3.12/lib/python3.12/site-packages/flask/app.py", line 880, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/debian/.cache/pypoetry/virtualenvs/backend-xUkcKsjJ-py3.12/lib/python3.12/site-packages/flask/app.py", line 865, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/debian/.cache/pypoetry/virtualenvs/backend-xUkcKsjJ-py3.12/lib/python3.12/site-packages/flask_restx/api.py", line 402, in wrapper
+    resp = resource(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/debian/.cache/pypoetry/virtualenvs/backend-xUkcKsjJ-py3.12/lib/python3.12/site-packages/flask/views.py", line 110, in view
+    return current_app.ensure_sync(self.dispatch_request)(**kwargs)  # type: ignore[no-any-return]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/debian/.cache/pypoetry/virtualenvs/backend-xUkcKsjJ-py3.12/lib/python3.12/site-packages/flask_restx/resource.py", line 41, in dispatch_request
+    resp = meth(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/debian/Projects/weather/backend/api/city.py", line 30, in get
+    abort(500, {"err_msg": str(e)})
+  File "/home/debian/.cache/pypoetry/virtualenvs/backend-xUkcKsjJ-py3.12/lib/python3.12/site-packages/werkzeug/exceptions.py", line 878, in abort
+    _aborter(status, *args, **kwargs)
+  File "/home/debian/.cache/pypoetry/virtualenvs/backend-xUkcKsjJ-py3.12/lib/python3.12/site-packages/werkzeug/exceptions.py", line 863, in __call__
+    raise self.mapping[code](*args, **kwargs)
+werkzeug.exceptions.InternalServerError: 500 Internal Server Error: {'err_msg': "'NoneType' object is not iterable"}
+[2024-10-30 05:39:58] ERROR in city: Unexpected error: 'NoneType' object is not iterable
+[2024-10-30 05:39:58] ERROR in app: Exception on /api/city [GET]
+Traceback (most recent call last):
+  File "/home/debian/Projects/weather/backend/api/city.py", line 22, in get
+    data = city_service.search_city(name, 20)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/debian/Projects/weather/backend/service/city.py", line 15, in search_city
+    for city_info in self.cities:
+                     ^^^^^^^^^^^
+TypeError: 'NoneType' object is not iterable
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/debian/.cache/pypoetry/virtualenvs/backend-xUkcKsjJ-py3.12/lib/python3.12/site-packages/flask/app.py", line 880, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/debian/.cache/pypoetry/virtualenvs/backend-xUkcKsjJ-py3.12/lib/python3.12/site-packages/flask/app.py", line 865, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/debian/.cache/pypoetry/virtualenvs/backend-xUkcKsjJ-py3.12/lib/python3.12/site-packages/flask_restx/api.py", line 402, in wrapper
+    resp = resource(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/debian/.cache/pypoetry/virtualenvs/backend-xUkcKsjJ-py3.12/lib/python3.12/site-packages/flask/views.py", line 110, in view
+    return current_app.ensure_sync(self.dispatch_request)(**kwargs)  # type: ignore[no-any-return]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/debian/.cache/pypoetry/virtualenvs/backend-xUkcKsjJ-py3.12/lib/python3.12/site-packages/flask_restx/resource.py", line 41, in dispatch_request
+    resp = meth(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/debian/Projects/weather/backend/api/city.py", line 30, in get
+    abort(500, {"err_msg": str(e)})
+  File "/home/debian/.cache/pypoetry/virtualenvs/backend-xUkcKsjJ-py3.12/lib/python3.12/site-packages/werkzeug/exceptions.py", line 878, in abort
+    _aborter(status, *args, **kwargs)
+  File "/home/debian/.cache/pypoetry/virtualenvs/backend-xUkcKsjJ-py3.12/lib/python3.12/site-packages/werkzeug/exceptions.py", line 863, in __call__
+    raise self.mapping[code](*args, **kwargs)
+werkzeug.exceptions.InternalServerError: 500 Internal Server Error: {'err_msg': "'NoneType' object is not iterable"}
+[2024-10-30 05:39:59] ERROR in city: Unexpected error: 'NoneType' object is not iterable
+[2024-10-30 05:39:59] ERROR in app: Exception on /api/city [GET]
+Traceback (most recent call last):
+  File "/home/debian/Projects/weather/backend/api/city.py", line 22, in get
+    data = city_service.search_city(name, 20)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/debian/Projects/weather/backend/service/city.py", line 15, in search_city
+    for city_info in self.cities:
+                     ^^^^^^^^^^^
+TypeError: 'NoneType' object is not iterable
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/debian/.cache/pypoetry/virtualenvs/backend-xUkcKsjJ-py3.12/lib/python3.12/site-packages/flask/app.py", line 880, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/debian/.cache/pypoetry/virtualenvs/backend-xUkcKsjJ-py3.12/lib/python3.12/site-packages/flask/app.py", line 865, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/debian/.cache/pypoetry/virtualenvs/backend-xUkcKsjJ-py3.12/lib/python3.12/site-packages/flask_restx/api.py", line 402, in wrapper
+    resp = resource(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/debian/.cache/pypoetry/virtualenvs/backend-xUkcKsjJ-py3.12/lib/python3.12/site-packages/flask/views.py", line 110, in view
+    return current_app.ensure_sync(self.dispatch_request)(**kwargs)  # type: ignore[no-any-return]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/debian/.cache/pypoetry/virtualenvs/backend-xUkcKsjJ-py3.12/lib/python3.12/site-packages/flask_restx/resource.py", line 41, in dispatch_request
+    resp = meth(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/debian/Projects/weather/backend/api/city.py", line 30, in get
+    abort(500, {"err_msg": str(e)})
+  File "/home/debian/.cache/pypoetry/virtualenvs/backend-xUkcKsjJ-py3.12/lib/python3.12/site-packages/werkzeug/exceptions.py", line 878, in abort
+    _aborter(status, *args, **kwargs)
+  File "/home/debian/.cache/pypoetry/virtualenvs/backend-xUkcKsjJ-py3.12/lib/python3.12/site-packages/werkzeug/exceptions.py", line 863, in __call__
+    raise self.mapping[code](*args, **kwargs)
+werkzeug.exceptions.InternalServerError: 500 Internal Server Error: {'err_msg': "'NoneType' object is not iterable"}
+[2024-10-30 05:39:59] ERROR in city: Unexpected error: 'NoneType' object is not iterable
+[2024-10-30 05:39:59] ERROR in app: Exception on /api/city [GET]
+Traceback (most recent call last):
+  File "/home/debian/Projects/weather/backend/api/city.py", line 22, in get
+    data = city_service.search_city(name, 20)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/debian/Projects/weather/backend/service/city.py", line 15, in search_city
+    for city_info in self.cities:
+                     ^^^^^^^^^^^
+TypeError: 'NoneType' object is not iterable
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/debian/.cache/pypoetry/virtualenvs/backend-xUkcKsjJ-py3.12/lib/python3.12/site-packages/flask/app.py", line 880, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/debian/.cache/pypoetry/virtualenvs/backend-xUkcKsjJ-py3.12/lib/python3.12/site-packages/flask/app.py", line 865, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/debian/.cache/pypoetry/virtualenvs/backend-xUkcKsjJ-py3.12/lib/python3.12/site-packages/flask_restx/api.py", line 402, in wrapper
+    resp = resource(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/debian/.cache/pypoetry/virtualenvs/backend-xUkcKsjJ-py3.12/lib/python3.12/site-packages/flask/views.py", line 110, in view
+    return current_app.ensure_sync(self.dispatch_request)(**kwargs)  # type: ignore[no-any-return]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/debian/.cache/pypoetry/virtualenvs/backend-xUkcKsjJ-py3.12/lib/python3.12/site-packages/flask_restx/resource.py", line 41, in dispatch_request
+    resp = meth(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/debian/Projects/weather/backend/api/city.py", line 30, in get
+    abort(500, {"err_msg": str(e)})
+  File "/home/debian/.cache/pypoetry/virtualenvs/backend-xUkcKsjJ-py3.12/lib/python3.12/site-packages/werkzeug/exceptions.py", line 878, in abort
+    _aborter(status, *args, **kwargs)
+  File "/home/debian/.cache/pypoetry/virtualenvs/backend-xUkcKsjJ-py3.12/lib/python3.12/site-packages/werkzeug/exceptions.py", line 863, in __call__
+    raise self.mapping[code](*args, **kwargs)
+werkzeug.exceptions.InternalServerError: 500 Internal Server Error: {'err_msg': "'NoneType' object is not iterable"}
+[2024-10-30 05:40:00] ERROR in city: Unexpected error: 'NoneType' object is not iterable
+[2024-10-30 05:40:00] ERROR in app: Exception on /api/city [GET]
+Traceback (most recent call last):
+  File "/home/debian/Projects/weather/backend/api/city.py", line 22, in get
+    data = city_service.search_city(name, 20)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/debian/Projects/weather/backend/service/city.py", line 15, in search_city
+    for city_info in self.cities:
+                     ^^^^^^^^^^^
+TypeError: 'NoneType' object is not iterable
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/debian/.cache/pypoetry/virtualenvs/backend-xUkcKsjJ-py3.12/lib/python3.12/site-packages/flask/app.py", line 880, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/debian/.cache/pypoetry/virtualenvs/backend-xUkcKsjJ-py3.12/lib/python3.12/site-packages/flask/app.py", line 865, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/debian/.cache/pypoetry/virtualenvs/backend-xUkcKsjJ-py3.12/lib/python3.12/site-packages/flask_restx/api.py", line 402, in wrapper
+    resp = resource(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/debian/.cache/pypoetry/virtualenvs/backend-xUkcKsjJ-py3.12/lib/python3.12/site-packages/flask/views.py", line 110, in view
+    return current_app.ensure_sync(self.dispatch_request)(**kwargs)  # type: ignore[no-any-return]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/debian/.cache/pypoetry/virtualenvs/backend-xUkcKsjJ-py3.12/lib/python3.12/site-packages/flask_restx/resource.py", line 41, in dispatch_request
+    resp = meth(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/debian/Projects/weather/backend/api/city.py", line 30, in get
+    abort(500, {"err_msg": str(e)})
+  File "/home/debian/.cache/pypoetry/virtualenvs/backend-xUkcKsjJ-py3.12/lib/python3.12/site-packages/werkzeug/exceptions.py", line 878, in abort
+    _aborter(status, *args, **kwargs)
+  File "/home/debian/.cache/pypoetry/virtualenvs/backend-xUkcKsjJ-py3.12/lib/python3.12/site-packages/werkzeug/exceptions.py", line 863, in __call__
+    raise self.mapping[code](*args, **kwargs)
+werkzeug.exceptions.InternalServerError: 500 Internal Server Error: {'err_msg': "'NoneType' object is not iterable"}
+[2024-10-30 05:40:01] ERROR in city: Unexpected error: 'NoneType' object is not iterable
+[2024-10-30 05:40:01] ERROR in app: Exception on /api/city [GET]
+Traceback (most recent call last):
+  File "/home/debian/Projects/weather/backend/api/city.py", line 22, in get
+    data = city_service.search_city(name, 20)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/debian/Projects/weather/backend/service/city.py", line 15, in search_city
+    for city_info in self.cities:
+                     ^^^^^^^^^^^
+TypeError: 'NoneType' object is not iterable
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/debian/.cache/pypoetry/virtualenvs/backend-xUkcKsjJ-py3.12/lib/python3.12/site-packages/flask/app.py", line 880, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/debian/.cache/pypoetry/virtualenvs/backend-xUkcKsjJ-py3.12/lib/python3.12/site-packages/flask/app.py", line 865, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/debian/.cache/pypoetry/virtualenvs/backend-xUkcKsjJ-py3.12/lib/python3.12/site-packages/flask_restx/api.py", line 402, in wrapper
+    resp = resource(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/debian/.cache/pypoetry/virtualenvs/backend-xUkcKsjJ-py3.12/lib/python3.12/site-packages/flask/views.py", line 110, in view
+    return current_app.ensure_sync(self.dispatch_request)(**kwargs)  # type: ignore[no-any-return]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/debian/.cache/pypoetry/virtualenvs/backend-xUkcKsjJ-py3.12/lib/python3.12/site-packages/flask_restx/resource.py", line 41, in dispatch_request
+    resp = meth(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/debian/Projects/weather/backend/api/city.py", line 30, in get
+    abort(500, {"err_msg": str(e)})
+  File "/home/debian/.cache/pypoetry/virtualenvs/backend-xUkcKsjJ-py3.12/lib/python3.12/site-packages/werkzeug/exceptions.py", line 878, in abort
+    _aborter(status, *args, **kwargs)
+  File "/home/debian/.cache/pypoetry/virtualenvs/backend-xUkcKsjJ-py3.12/lib/python3.12/site-packages/werkzeug/exceptions.py", line 863, in __call__
+    raise self.mapping[code](*args, **kwargs)
+werkzeug.exceptions.InternalServerError: 500 Internal Server Error: {'err_msg': "'NoneType' object is not iterable"}
+[2024-10-30 05:40:02] ERROR in city: Unexpected error: 'NoneType' object is not iterable
+[2024-10-30 05:40:02] ERROR in app: Exception on /api/city [GET]
+Traceback (most recent call last):
+  File "/home/debian/Projects/weather/backend/api/city.py", line 22, in get
+    data = city_service.search_city(name, 20)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/debian/Projects/weather/backend/service/city.py", line 15, in search_city
+    for city_info in self.cities:
+                     ^^^^^^^^^^^
+TypeError: 'NoneType' object is not iterable
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/debian/.cache/pypoetry/virtualenvs/backend-xUkcKsjJ-py3.12/lib/python3.12/site-packages/flask/app.py", line 880, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/debian/.cache/pypoetry/virtualenvs/backend-xUkcKsjJ-py3.12/lib/python3.12/site-packages/flask/app.py", line 865, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/debian/.cache/pypoetry/virtualenvs/backend-xUkcKsjJ-py3.12/lib/python3.12/site-packages/flask_restx/api.py", line 402, in wrapper
+    resp = resource(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/debian/.cache/pypoetry/virtualenvs/backend-xUkcKsjJ-py3.12/lib/python3.12/site-packages/flask/views.py", line 110, in view
+    return current_app.ensure_sync(self.dispatch_request)(**kwargs)  # type: ignore[no-any-return]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/debian/.cache/pypoetry/virtualenvs/backend-xUkcKsjJ-py3.12/lib/python3.12/site-packages/flask_restx/resource.py", line 41, in dispatch_request
+    resp = meth(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/debian/Projects/weather/backend/api/city.py", line 30, in get
+    abort(500, {"err_msg": str(e)})
+  File "/home/debian/.cache/pypoetry/virtualenvs/backend-xUkcKsjJ-py3.12/lib/python3.12/site-packages/werkzeug/exceptions.py", line 878, in abort
+    _aborter(status, *args, **kwargs)
+  File "/home/debian/.cache/pypoetry/virtualenvs/backend-xUkcKsjJ-py3.12/lib/python3.12/site-packages/werkzeug/exceptions.py", line 863, in __call__
+    raise self.mapping[code](*args, **kwargs)
+werkzeug.exceptions.InternalServerError: 500 Internal Server Error: {'err_msg': "'NoneType' object is not iterable"}
+[2024-10-30 05:40:03] ERROR in city: Unexpected error: 'NoneType' object is not iterable
+[2024-10-30 05:40:03] ERROR in app: Exception on /api/city [GET]
+Traceback (most recent call last):
+  File "/home/debian/Projects/weather/backend/api/city.py", line 22, in get
+    data = city_service.search_city(name, 20)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/debian/Projects/weather/backend/service/city.py", line 15, in search_city
+    for city_info in self.cities:
+                     ^^^^^^^^^^^
+TypeError: 'NoneType' object is not iterable
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/debian/.cache/pypoetry/virtualenvs/backend-xUkcKsjJ-py3.12/lib/python3.12/site-packages/flask/app.py", line 880, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/debian/.cache/pypoetry/virtualenvs/backend-xUkcKsjJ-py3.12/lib/python3.12/site-packages/flask/app.py", line 865, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/debian/.cache/pypoetry/virtualenvs/backend-xUkcKsjJ-py3.12/lib/python3.12/site-packages/flask_restx/api.py", line 402, in wrapper
+    resp = resource(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/debian/.cache/pypoetry/virtualenvs/backend-xUkcKsjJ-py3.12/lib/python3.12/site-packages/flask/views.py", line 110, in view
+    return current_app.ensure_sync(self.dispatch_request)(**kwargs)  # type: ignore[no-any-return]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/debian/.cache/pypoetry/virtualenvs/backend-xUkcKsjJ-py3.12/lib/python3.12/site-packages/flask_restx/resource.py", line 41, in dispatch_request
+    resp = meth(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/debian/Projects/weather/backend/api/city.py", line 30, in get
+    abort(500, {"err_msg": str(e)})
+  File "/home/debian/.cache/pypoetry/virtualenvs/backend-xUkcKsjJ-py3.12/lib/python3.12/site-packages/werkzeug/exceptions.py", line 878, in abort
+    _aborter(status, *args, **kwargs)
+  File "/home/debian/.cache/pypoetry/virtualenvs/backend-xUkcKsjJ-py3.12/lib/python3.12/site-packages/werkzeug/exceptions.py", line 863, in __call__
+    raise self.mapping[code](*args, **kwargs)
+werkzeug.exceptions.InternalServerError: 500 Internal Server Error: {'err_msg': "'NoneType' object is not iterable"}
+[2024-10-30 05:40:03] ERROR in city: Unexpected error: 'NoneType' object is not iterable
+[2024-10-30 05:40:03] ERROR in app: Exception on /api/city [GET]
+Traceback (most recent call last):
+  File "/home/debian/Projects/weather/backend/api/city.py", line 22, in get
+    data = city_service.search_city(name, 20)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/debian/Projects/weather/backend/service/city.py", line 15, in search_city
+    for city_info in self.cities:
+                     ^^^^^^^^^^^
+TypeError: 'NoneType' object is not iterable
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/debian/.cache/pypoetry/virtualenvs/backend-xUkcKsjJ-py3.12/lib/python3.12/site-packages/flask/app.py", line 880, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/debian/.cache/pypoetry/virtualenvs/backend-xUkcKsjJ-py3.12/lib/python3.12/site-packages/flask/app.py", line 865, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/debian/.cache/pypoetry/virtualenvs/backend-xUkcKsjJ-py3.12/lib/python3.12/site-packages/flask_restx/api.py", line 402, in wrapper
+    resp = resource(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/debian/.cache/pypoetry/virtualenvs/backend-xUkcKsjJ-py3.12/lib/python3.12/site-packages/flask/views.py", line 110, in view
+    return current_app.ensure_sync(self.dispatch_request)(**kwargs)  # type: ignore[no-any-return]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/debian/.cache/pypoetry/virtualenvs/backend-xUkcKsjJ-py3.12/lib/python3.12/site-packages/flask_restx/resource.py", line 41, in dispatch_request
+    resp = meth(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/debian/Projects/weather/backend/api/city.py", line 30, in get
+    abort(500, {"err_msg": str(e)})
+  File "/home/debian/.cache/pypoetry/virtualenvs/backend-xUkcKsjJ-py3.12/lib/python3.12/site-packages/werkzeug/exceptions.py", line 878, in abort
+    _aborter(status, *args, **kwargs)
+  File "/home/debian/.cache/pypoetry/virtualenvs/backend-xUkcKsjJ-py3.12/lib/python3.12/site-packages/werkzeug/exceptions.py", line 863, in __call__
+    raise self.mapping[code](*args, **kwargs)
+werkzeug.exceptions.InternalServerError: 500 Internal Server Error: {'err_msg': "'NoneType' object is not iterable"}
+[2024-10-30 05:40:04] ERROR in city: Unexpected error: 'NoneType' object is not iterable
+[2024-10-30 05:40:04] ERROR in app: Exception on /api/city [GET]
+Traceback (most recent call last):
+  File "/home/debian/Projects/weather/backend/api/city.py", line 22, in get
+    data = city_service.search_city(name, 20)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/debian/Projects/weather/backend/service/city.py", line 15, in search_city
+    for city_info in self.cities:
+                     ^^^^^^^^^^^
+TypeError: 'NoneType' object is not iterable
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/debian/.cache/pypoetry/virtualenvs/backend-xUkcKsjJ-py3.12/lib/python3.12/site-packages/flask/app.py", line 880, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/debian/.cache/pypoetry/virtualenvs/backend-xUkcKsjJ-py3.12/lib/python3.12/site-packages/flask/app.py", line 865, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/debian/.cache/pypoetry/virtualenvs/backend-xUkcKsjJ-py3.12/lib/python3.12/site-packages/flask_restx/api.py", line 402, in wrapper
+    resp = resource(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/debian/.cache/pypoetry/virtualenvs/backend-xUkcKsjJ-py3.12/lib/python3.12/site-packages/flask/views.py", line 110, in view
+    return current_app.ensure_sync(self.dispatch_request)(**kwargs)  # type: ignore[no-any-return]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/debian/.cache/pypoetry/virtualenvs/backend-xUkcKsjJ-py3.12/lib/python3.12/site-packages/flask_restx/resource.py", line 41, in dispatch_request
+    resp = meth(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/debian/Projects/weather/backend/api/city.py", line 30, in get
+    abort(500, {"err_msg": str(e)})
+  File "/home/debian/.cache/pypoetry/virtualenvs/backend-xUkcKsjJ-py3.12/lib/python3.12/site-packages/werkzeug/exceptions.py", line 878, in abort
+    _aborter(status, *args, **kwargs)
+  File "/home/debian/.cache/pypoetry/virtualenvs/backend-xUkcKsjJ-py3.12/lib/python3.12/site-packages/werkzeug/exceptions.py", line 863, in __call__
+    raise self.mapping[code](*args, **kwargs)
+werkzeug.exceptions.InternalServerError: 500 Internal Server Error: {'err_msg': "'NoneType' object is not iterable"}
+[2024-10-30 05:40:04] ERROR in city: Unexpected error: 'NoneType' object is not iterable
+[2024-10-30 05:40:04] ERROR in app: Exception on /api/city [GET]
+Traceback (most recent call last):
+  File "/home/debian/Projects/weather/backend/api/city.py", line 22, in get
+    data = city_service.search_city(name, 20)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/debian/Projects/weather/backend/service/city.py", line 15, in search_city
+    for city_info in self.cities:
+                     ^^^^^^^^^^^
+TypeError: 'NoneType' object is not iterable
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/debian/.cache/pypoetry/virtualenvs/backend-xUkcKsjJ-py3.12/lib/python3.12/site-packages/flask/app.py", line 880, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/debian/.cache/pypoetry/virtualenvs/backend-xUkcKsjJ-py3.12/lib/python3.12/site-packages/flask/app.py", line 865, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/debian/.cache/pypoetry/virtualenvs/backend-xUkcKsjJ-py3.12/lib/python3.12/site-packages/flask_restx/api.py", line 402, in wrapper
+    resp = resource(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/debian/.cache/pypoetry/virtualenvs/backend-xUkcKsjJ-py3.12/lib/python3.12/site-packages/flask/views.py", line 110, in view
+    return current_app.ensure_sync(self.dispatch_request)(**kwargs)  # type: ignore[no-any-return]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/debian/.cache/pypoetry/virtualenvs/backend-xUkcKsjJ-py3.12/lib/python3.12/site-packages/flask_restx/resource.py", line 41, in dispatch_request
+    resp = meth(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/debian/Projects/weather/backend/api/city.py", line 30, in get
+    abort(500, {"err_msg": str(e)})
+  File "/home/debian/.cache/pypoetry/virtualenvs/backend-xUkcKsjJ-py3.12/lib/python3.12/site-packages/werkzeug/exceptions.py", line 878, in abort
+    _aborter(status, *args, **kwargs)
+  File "/home/debian/.cache/pypoetry/virtualenvs/backend-xUkcKsjJ-py3.12/lib/python3.12/site-packages/werkzeug/exceptions.py", line 863, in __call__
+    raise self.mapping[code](*args, **kwargs)
+werkzeug.exceptions.InternalServerError: 500 Internal Server Error: {'err_msg': "'NoneType' object is not iterable"}
+[2024-10-30 05:40:05] ERROR in city: Unexpected error: 'NoneType' object is not iterable
+[2024-10-30 05:40:05] ERROR in app: Exception on /api/city [GET]
+Traceback (most recent call last):
+  File "/home/debian/Projects/weather/backend/api/city.py", line 22, in get
+    data = city_service.search_city(name, 20)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/debian/Projects/weather/backend/service/city.py", line 15, in search_city
+    for city_info in self.cities:
+                     ^^^^^^^^^^^
+TypeError: 'NoneType' object is not iterable
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/debian/.cache/pypoetry/virtualenvs/backend-xUkcKsjJ-py3.12/lib/python3.12/site-packages/flask/app.py", line 880, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/debian/.cache/pypoetry/virtualenvs/backend-xUkcKsjJ-py3.12/lib/python3.12/site-packages/flask/app.py", line 865, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/debian/.cache/pypoetry/virtualenvs/backend-xUkcKsjJ-py3.12/lib/python3.12/site-packages/flask_restx/api.py", line 402, in wrapper
+    resp = resource(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/debian/.cache/pypoetry/virtualenvs/backend-xUkcKsjJ-py3.12/lib/python3.12/site-packages/flask/views.py", line 110, in view
+    return current_app.ensure_sync(self.dispatch_request)(**kwargs)  # type: ignore[no-any-return]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/debian/.cache/pypoetry/virtualenvs/backend-xUkcKsjJ-py3.12/lib/python3.12/site-packages/flask_restx/resource.py", line 41, in dispatch_request
+    resp = meth(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/debian/Projects/weather/backend/api/city.py", line 30, in get
+    abort(500, {"err_msg": str(e)})
+  File "/home/debian/.cache/pypoetry/virtualenvs/backend-xUkcKsjJ-py3.12/lib/python3.12/site-packages/werkzeug/exceptions.py", line 878, in abort
+    _aborter(status, *args, **kwargs)
+  File "/home/debian/.cache/pypoetry/virtualenvs/backend-xUkcKsjJ-py3.12/lib/python3.12/site-packages/werkzeug/exceptions.py", line 863, in __call__
+    raise self.mapping[code](*args, **kwargs)
+werkzeug.exceptions.InternalServerError: 500 Internal Server Error: {'err_msg': "'NoneType' object is not iterable"}
+[2024-10-30 05:40:05] ERROR in city: Unexpected error: 'NoneType' object is not iterable
+[2024-10-30 05:40:05] ERROR in app: Exception on /api/city [GET]
+Traceback (most recent call last):
+  File "/home/debian/Projects/weather/backend/api/city.py", line 22, in get
+    data = city_service.search_city(name, 20)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/debian/Projects/weather/backend/service/city.py", line 15, in search_city
+    for city_info in self.cities:
+                     ^^^^^^^^^^^
+TypeError: 'NoneType' object is not iterable
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/debian/.cache/pypoetry/virtualenvs/backend-xUkcKsjJ-py3.12/lib/python3.12/site-packages/flask/app.py", line 880, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/debian/.cache/pypoetry/virtualenvs/backend-xUkcKsjJ-py3.12/lib/python3.12/site-packages/flask/app.py", line 865, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/debian/.cache/pypoetry/virtualenvs/backend-xUkcKsjJ-py3.12/lib/python3.12/site-packages/flask_restx/api.py", line 402, in wrapper
+    resp = resource(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/debian/.cache/pypoetry/virtualenvs/backend-xUkcKsjJ-py3.12/lib/python3.12/site-packages/flask/views.py", line 110, in view
+    return current_app.ensure_sync(self.dispatch_request)(**kwargs)  # type: ignore[no-any-return]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/debian/.cache/pypoetry/virtualenvs/backend-xUkcKsjJ-py3.12/lib/python3.12/site-packages/flask_restx/resource.py", line 41, in dispatch_request
+    resp = meth(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/debian/Projects/weather/backend/api/city.py", line 30, in get
+    abort(500, {"err_msg": str(e)})
+  File "/home/debian/.cache/pypoetry/virtualenvs/backend-xUkcKsjJ-py3.12/lib/python3.12/site-packages/werkzeug/exceptions.py", line 878, in abort
+    _aborter(status, *args, **kwargs)
+  File "/home/debian/.cache/pypoetry/virtualenvs/backend-xUkcKsjJ-py3.12/lib/python3.12/site-packages/werkzeug/exceptions.py", line 863, in __call__
+    raise self.mapping[code](*args, **kwargs)
+werkzeug.exceptions.InternalServerError: 500 Internal Server Error: {'err_msg': "'NoneType' object is not iterable"}
+[2024-10-30 05:40:05] ERROR in city: Unexpected error: 'NoneType' object is not iterable
+[2024-10-30 05:40:05] ERROR in app: Exception on /api/city [GET]
+Traceback (most recent call last):
+  File "/home/debian/Projects/weather/backend/api/city.py", line 22, in get
+    data = city_service.search_city(name, 20)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/debian/Projects/weather/backend/service/city.py", line 15, in search_city
+    for city_info in self.cities:
+                     ^^^^^^^^^^^
+TypeError: 'NoneType' object is not iterable
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/debian/.cache/pypoetry/virtualenvs/backend-xUkcKsjJ-py3.12/lib/python3.12/site-packages/flask/app.py", line 880, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/debian/.cache/pypoetry/virtualenvs/backend-xUkcKsjJ-py3.12/lib/python3.12/site-packages/flask/app.py", line 865, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/debian/.cache/pypoetry/virtualenvs/backend-xUkcKsjJ-py3.12/lib/python3.12/site-packages/flask_restx/api.py", line 402, in wrapper
+    resp = resource(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/debian/.cache/pypoetry/virtualenvs/backend-xUkcKsjJ-py3.12/lib/python3.12/site-packages/flask/views.py", line 110, in view
+    return current_app.ensure_sync(self.dispatch_request)(**kwargs)  # type: ignore[no-any-return]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/debian/.cache/pypoetry/virtualenvs/backend-xUkcKsjJ-py3.12/lib/python3.12/site-packages/flask_restx/resource.py", line 41, in dispatch_request
+    resp = meth(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/debian/Projects/weather/backend/api/city.py", line 30, in get
+    abort(500, {"err_msg": str(e)})
+  File "/home/debian/.cache/pypoetry/virtualenvs/backend-xUkcKsjJ-py3.12/lib/python3.12/site-packages/werkzeug/exceptions.py", line 878, in abort
+    _aborter(status, *args, **kwargs)
+  File "/home/debian/.cache/pypoetry/virtualenvs/backend-xUkcKsjJ-py3.12/lib/python3.12/site-packages/werkzeug/exceptions.py", line 863, in __call__
+    raise self.mapping[code](*args, **kwargs)
+werkzeug.exceptions.InternalServerError: 500 Internal Server Error: {'err_msg': "'NoneType' object is not iterable"}
+[2024-10-30 05:40:27] ERROR in weather: Unexpected error: 'NoneType' object is not iterable
+[2024-10-30 05:40:27] ERROR in app: Exception on /api/weather [GET]
+Traceback (most recent call last):
+  File "/home/debian/Projects/weather/backend/api/weather.py", line 20, in get
+    weather_service = WeatherService()
+                      ^^^^^^^^^^^^^^^^
+  File "/home/debian/Projects/weather/backend/service/weather.py", line 27, in __init__
+    for city_info in cities:
+                     ^^^^^^
+TypeError: 'NoneType' object is not iterable
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/debian/.cache/pypoetry/virtualenvs/backend-xUkcKsjJ-py3.12/lib/python3.12/site-packages/flask/app.py", line 880, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/debian/.cache/pypoetry/virtualenvs/backend-xUkcKsjJ-py3.12/lib/python3.12/site-packages/flask/app.py", line 865, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/debian/.cache/pypoetry/virtualenvs/backend-xUkcKsjJ-py3.12/lib/python3.12/site-packages/flask_restx/api.py", line 402, in wrapper
+    resp = resource(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/debian/.cache/pypoetry/virtualenvs/backend-xUkcKsjJ-py3.12/lib/python3.12/site-packages/flask/views.py", line 110, in view
+    return current_app.ensure_sync(self.dispatch_request)(**kwargs)  # type: ignore[no-any-return]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/debian/.cache/pypoetry/virtualenvs/backend-xUkcKsjJ-py3.12/lib/python3.12/site-packages/flask_restx/resource.py", line 41, in dispatch_request
+    resp = meth(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/debian/Projects/weather/backend/api/weather.py", line 31, in get
+    abort(500, {"err_msg": "Internal Server Error"})
+  File "/home/debian/.cache/pypoetry/virtualenvs/backend-xUkcKsjJ-py3.12/lib/python3.12/site-packages/werkzeug/exceptions.py", line 878, in abort
+    _aborter(status, *args, **kwargs)
+  File "/home/debian/.cache/pypoetry/virtualenvs/backend-xUkcKsjJ-py3.12/lib/python3.12/site-packages/werkzeug/exceptions.py", line 863, in __call__
+    raise self.mapping[code](*args, **kwargs)
+werkzeug.exceptions.InternalServerError: 500 Internal Server Error: {'err_msg': 'Internal Server Error'}
+[2024-10-30 05:41:16] ERROR in weather: Unexpected error: 'NoneType' object is not iterable
+[2024-10-30 05:41:16] ERROR in app: Exception on /api/weather [GET]
+Traceback (most recent call last):
+  File "/home/debian/Projects/weather/backend/api/weather.py", line 20, in get
+    weather_service = WeatherService()
+                      ^^^^^^^^^^^^^^^^
+  File "/home/debian/Projects/weather/backend/service/weather.py", line 26, in __init__
+    for city_info in cities:
+                     ^^^^^^
+TypeError: 'NoneType' object is not iterable
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/debian/.cache/pypoetry/virtualenvs/backend-xUkcKsjJ-py3.12/lib/python3.12/site-packages/flask/app.py", line 880, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/debian/.cache/pypoetry/virtualenvs/backend-xUkcKsjJ-py3.12/lib/python3.12/site-packages/flask/app.py", line 865, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/debian/.cache/pypoetry/virtualenvs/backend-xUkcKsjJ-py3.12/lib/python3.12/site-packages/flask_restx/api.py", line 402, in wrapper
+    resp = resource(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/debian/.cache/pypoetry/virtualenvs/backend-xUkcKsjJ-py3.12/lib/python3.12/site-packages/flask/views.py", line 110, in view
+    return current_app.ensure_sync(self.dispatch_request)(**kwargs)  # type: ignore[no-any-return]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/debian/.cache/pypoetry/virtualenvs/backend-xUkcKsjJ-py3.12/lib/python3.12/site-packages/flask_restx/resource.py", line 41, in dispatch_request
+    resp = meth(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/debian/Projects/weather/backend/api/weather.py", line 31, in get
+    abort(500, {"err_msg": "Internal Server Error"})
+  File "/home/debian/.cache/pypoetry/virtualenvs/backend-xUkcKsjJ-py3.12/lib/python3.12/site-packages/werkzeug/exceptions.py", line 878, in abort
+    _aborter(status, *args, **kwargs)
+  File "/home/debian/.cache/pypoetry/virtualenvs/backend-xUkcKsjJ-py3.12/lib/python3.12/site-packages/werkzeug/exceptions.py", line 863, in __call__
+    raise self.mapping[code](*args, **kwargs)
+werkzeug.exceptions.InternalServerError: 500 Internal Server Error: {'err_msg': 'Internal Server Error'}
+[2024-10-30 05:41:17] ERROR in weather: Unexpected error: 'NoneType' object is not iterable
+[2024-10-30 05:41:17] ERROR in app: Exception on /api/weather [GET]
+Traceback (most recent call last):
+  File "/home/debian/Projects/weather/backend/api/weather.py", line 20, in get
+    weather_service = WeatherService()
+                      ^^^^^^^^^^^^^^^^
+  File "/home/debian/Projects/weather/backend/service/weather.py", line 26, in __init__
+    for city_info in cities:
+                     ^^^^^^
+TypeError: 'NoneType' object is not iterable
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/debian/.cache/pypoetry/virtualenvs/backend-xUkcKsjJ-py3.12/lib/python3.12/site-packages/flask/app.py", line 880, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/debian/.cache/pypoetry/virtualenvs/backend-xUkcKsjJ-py3.12/lib/python3.12/site-packages/flask/app.py", line 865, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/debian/.cache/pypoetry/virtualenvs/backend-xUkcKsjJ-py3.12/lib/python3.12/site-packages/flask_restx/api.py", line 402, in wrapper
+    resp = resource(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/debian/.cache/pypoetry/virtualenvs/backend-xUkcKsjJ-py3.12/lib/python3.12/site-packages/flask/views.py", line 110, in view
+    return current_app.ensure_sync(self.dispatch_request)(**kwargs)  # type: ignore[no-any-return]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/debian/.cache/pypoetry/virtualenvs/backend-xUkcKsjJ-py3.12/lib/python3.12/site-packages/flask_restx/resource.py", line 41, in dispatch_request
+    resp = meth(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/debian/Projects/weather/backend/api/weather.py", line 31, in get
+    abort(500, {"err_msg": "Internal Server Error"})
+  File "/home/debian/.cache/pypoetry/virtualenvs/backend-xUkcKsjJ-py3.12/lib/python3.12/site-packages/werkzeug/exceptions.py", line 878, in abort
+    _aborter(status, *args, **kwargs)
+  File "/home/debian/.cache/pypoetry/virtualenvs/backend-xUkcKsjJ-py3.12/lib/python3.12/site-packages/werkzeug/exceptions.py", line 863, in __call__
+    raise self.mapping[code](*args, **kwargs)
+werkzeug.exceptions.InternalServerError: 500 Internal Server Error: {'err_msg': 'Internal Server Error'}
+[2024-10-30 05:41:18] ERROR in weather: Unexpected error: 'NoneType' object is not iterable
+[2024-10-30 05:41:18] ERROR in app: Exception on /api/weather [GET]
+Traceback (most recent call last):
+  File "/home/debian/Projects/weather/backend/api/weather.py", line 20, in get
+    weather_service = WeatherService()
+                      ^^^^^^^^^^^^^^^^
+  File "/home/debian/Projects/weather/backend/service/weather.py", line 26, in __init__
+    for city_info in cities:
+                     ^^^^^^
+TypeError: 'NoneType' object is not iterable
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/debian/.cache/pypoetry/virtualenvs/backend-xUkcKsjJ-py3.12/lib/python3.12/site-packages/flask/app.py", line 880, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/debian/.cache/pypoetry/virtualenvs/backend-xUkcKsjJ-py3.12/lib/python3.12/site-packages/flask/app.py", line 865, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/debian/.cache/pypoetry/virtualenvs/backend-xUkcKsjJ-py3.12/lib/python3.12/site-packages/flask_restx/api.py", line 402, in wrapper
+    resp = resource(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/debian/.cache/pypoetry/virtualenvs/backend-xUkcKsjJ-py3.12/lib/python3.12/site-packages/flask/views.py", line 110, in view
+    return current_app.ensure_sync(self.dispatch_request)(**kwargs)  # type: ignore[no-any-return]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/debian/.cache/pypoetry/virtualenvs/backend-xUkcKsjJ-py3.12/lib/python3.12/site-packages/flask_restx/resource.py", line 41, in dispatch_request
+    resp = meth(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/debian/Projects/weather/backend/api/weather.py", line 31, in get
+    abort(500, {"err_msg": "Internal Server Error"})
+  File "/home/debian/.cache/pypoetry/virtualenvs/backend-xUkcKsjJ-py3.12/lib/python3.12/site-packages/werkzeug/exceptions.py", line 878, in abort
+    _aborter(status, *args, **kwargs)
+  File "/home/debian/.cache/pypoetry/virtualenvs/backend-xUkcKsjJ-py3.12/lib/python3.12/site-packages/werkzeug/exceptions.py", line 863, in __call__
+    raise self.mapping[code](*args, **kwargs)
+werkzeug.exceptions.InternalServerError: 500 Internal Server Error: {'err_msg': 'Internal Server Error'}
+[2024-10-30 05:41:19] ERROR in weather: Unexpected error: 'NoneType' object is not iterable
+[2024-10-30 05:41:19] ERROR in app: Exception on /api/weather [GET]
+Traceback (most recent call last):
+  File "/home/debian/Projects/weather/backend/api/weather.py", line 20, in get
+    weather_service = WeatherService()
+                      ^^^^^^^^^^^^^^^^
+  File "/home/debian/Projects/weather/backend/service/weather.py", line 26, in __init__
+    for city_info in cities:
+                     ^^^^^^
+TypeError: 'NoneType' object is not iterable
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/debian/.cache/pypoetry/virtualenvs/backend-xUkcKsjJ-py3.12/lib/python3.12/site-packages/flask/app.py", line 880, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/debian/.cache/pypoetry/virtualenvs/backend-xUkcKsjJ-py3.12/lib/python3.12/site-packages/flask/app.py", line 865, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/debian/.cache/pypoetry/virtualenvs/backend-xUkcKsjJ-py3.12/lib/python3.12/site-packages/flask_restx/api.py", line 402, in wrapper
+    resp = resource(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/debian/.cache/pypoetry/virtualenvs/backend-xUkcKsjJ-py3.12/lib/python3.12/site-packages/flask/views.py", line 110, in view
+    return current_app.ensure_sync(self.dispatch_request)(**kwargs)  # type: ignore[no-any-return]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/debian/.cache/pypoetry/virtualenvs/backend-xUkcKsjJ-py3.12/lib/python3.12/site-packages/flask_restx/resource.py", line 41, in dispatch_request
+    resp = meth(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/debian/Projects/weather/backend/api/weather.py", line 31, in get
+    abort(500, {"err_msg": "Internal Server Error"})
+  File "/home/debian/.cache/pypoetry/virtualenvs/backend-xUkcKsjJ-py3.12/lib/python3.12/site-packages/werkzeug/exceptions.py", line 878, in abort
+    _aborter(status, *args, **kwargs)
+  File "/home/debian/.cache/pypoetry/virtualenvs/backend-xUkcKsjJ-py3.12/lib/python3.12/site-packages/werkzeug/exceptions.py", line 863, in __call__
+    raise self.mapping[code](*args, **kwargs)
+werkzeug.exceptions.InternalServerError: 500 Internal Server Error: {'err_msg': 'Internal Server Error'}
+[2024-10-30 05:41:20] ERROR in weather: Unexpected error: 'NoneType' object is not iterable
+[2024-10-30 05:41:20] ERROR in app: Exception on /api/weather [GET]
+Traceback (most recent call last):
+  File "/home/debian/Projects/weather/backend/api/weather.py", line 20, in get
+    weather_service = WeatherService()
+                      ^^^^^^^^^^^^^^^^
+  File "/home/debian/Projects/weather/backend/service/weather.py", line 26, in __init__
+    for city_info in cities:
+                     ^^^^^^
+TypeError: 'NoneType' object is not iterable
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/debian/.cache/pypoetry/virtualenvs/backend-xUkcKsjJ-py3.12/lib/python3.12/site-packages/flask/app.py", line 880, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/debian/.cache/pypoetry/virtualenvs/backend-xUkcKsjJ-py3.12/lib/python3.12/site-packages/flask/app.py", line 865, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/debian/.cache/pypoetry/virtualenvs/backend-xUkcKsjJ-py3.12/lib/python3.12/site-packages/flask_restx/api.py", line 402, in wrapper
+    resp = resource(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/debian/.cache/pypoetry/virtualenvs/backend-xUkcKsjJ-py3.12/lib/python3.12/site-packages/flask/views.py", line 110, in view
+    return current_app.ensure_sync(self.dispatch_request)(**kwargs)  # type: ignore[no-any-return]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/debian/.cache/pypoetry/virtualenvs/backend-xUkcKsjJ-py3.12/lib/python3.12/site-packages/flask_restx/resource.py", line 41, in dispatch_request
+    resp = meth(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/debian/Projects/weather/backend/api/weather.py", line 31, in get
+    abort(500, {"err_msg": "Internal Server Error"})
+  File "/home/debian/.cache/pypoetry/virtualenvs/backend-xUkcKsjJ-py3.12/lib/python3.12/site-packages/werkzeug/exceptions.py", line 878, in abort
+    _aborter(status, *args, **kwargs)
+  File "/home/debian/.cache/pypoetry/virtualenvs/backend-xUkcKsjJ-py3.12/lib/python3.12/site-packages/werkzeug/exceptions.py", line 863, in __call__
+    raise self.mapping[code](*args, **kwargs)
+werkzeug.exceptions.InternalServerError: 500 Internal Server Error: {'err_msg': 'Internal Server Error'}
+[2024-10-30 05:41:21] ERROR in weather: Unexpected error: 'NoneType' object is not iterable
+[2024-10-30 05:41:21] ERROR in app: Exception on /api/weather [GET]
+Traceback (most recent call last):
+  File "/home/debian/Projects/weather/backend/api/weather.py", line 20, in get
+    weather_service = WeatherService()
+                      ^^^^^^^^^^^^^^^^
+  File "/home/debian/Projects/weather/backend/service/weather.py", line 26, in __init__
+    for city_info in cities:
+                     ^^^^^^
+TypeError: 'NoneType' object is not iterable
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/debian/.cache/pypoetry/virtualenvs/backend-xUkcKsjJ-py3.12/lib/python3.12/site-packages/flask/app.py", line 880, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/debian/.cache/pypoetry/virtualenvs/backend-xUkcKsjJ-py3.12/lib/python3.12/site-packages/flask/app.py", line 865, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/debian/.cache/pypoetry/virtualenvs/backend-xUkcKsjJ-py3.12/lib/python3.12/site-packages/flask_restx/api.py", line 402, in wrapper
+    resp = resource(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/debian/.cache/pypoetry/virtualenvs/backend-xUkcKsjJ-py3.12/lib/python3.12/site-packages/flask/views.py", line 110, in view
+    return current_app.ensure_sync(self.dispatch_request)(**kwargs)  # type: ignore[no-any-return]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/debian/.cache/pypoetry/virtualenvs/backend-xUkcKsjJ-py3.12/lib/python3.12/site-packages/flask_restx/resource.py", line 41, in dispatch_request
+    resp = meth(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/debian/Projects/weather/backend/api/weather.py", line 31, in get
+    abort(500, {"err_msg": "Internal Server Error"})
+  File "/home/debian/.cache/pypoetry/virtualenvs/backend-xUkcKsjJ-py3.12/lib/python3.12/site-packages/werkzeug/exceptions.py", line 878, in abort
+    _aborter(status, *args, **kwargs)
+  File "/home/debian/.cache/pypoetry/virtualenvs/backend-xUkcKsjJ-py3.12/lib/python3.12/site-packages/werkzeug/exceptions.py", line 863, in __call__
+    raise self.mapping[code](*args, **kwargs)
+werkzeug.exceptions.InternalServerError: 500 Internal Server Error: {'err_msg': 'Internal Server Error'}
+[2024-10-30 05:41:22] ERROR in weather: Unexpected error: 'NoneType' object is not iterable
+[2024-10-30 05:41:22] ERROR in app: Exception on /api/weather [GET]
+Traceback (most recent call last):
+  File "/home/debian/Projects/weather/backend/api/weather.py", line 20, in get
+    weather_service = WeatherService()
+                      ^^^^^^^^^^^^^^^^
+  File "/home/debian/Projects/weather/backend/service/weather.py", line 26, in __init__
+    for city_info in cities:
+                     ^^^^^^
+TypeError: 'NoneType' object is not iterable
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/debian/.cache/pypoetry/virtualenvs/backend-xUkcKsjJ-py3.12/lib/python3.12/site-packages/flask/app.py", line 880, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/debian/.cache/pypoetry/virtualenvs/backend-xUkcKsjJ-py3.12/lib/python3.12/site-packages/flask/app.py", line 865, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/debian/.cache/pypoetry/virtualenvs/backend-xUkcKsjJ-py3.12/lib/python3.12/site-packages/flask_restx/api.py", line 402, in wrapper
+    resp = resource(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/debian/.cache/pypoetry/virtualenvs/backend-xUkcKsjJ-py3.12/lib/python3.12/site-packages/flask/views.py", line 110, in view
+    return current_app.ensure_sync(self.dispatch_request)(**kwargs)  # type: ignore[no-any-return]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/debian/.cache/pypoetry/virtualenvs/backend-xUkcKsjJ-py3.12/lib/python3.12/site-packages/flask_restx/resource.py", line 41, in dispatch_request
+    resp = meth(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/debian/Projects/weather/backend/api/weather.py", line 31, in get
+    abort(500, {"err_msg": "Internal Server Error"})
+  File "/home/debian/.cache/pypoetry/virtualenvs/backend-xUkcKsjJ-py3.12/lib/python3.12/site-packages/werkzeug/exceptions.py", line 878, in abort
+    _aborter(status, *args, **kwargs)
+  File "/home/debian/.cache/pypoetry/virtualenvs/backend-xUkcKsjJ-py3.12/lib/python3.12/site-packages/werkzeug/exceptions.py", line 863, in __call__
+    raise self.mapping[code](*args, **kwargs)
+werkzeug.exceptions.InternalServerError: 500 Internal Server Error: {'err_msg': 'Internal Server Error'}
+[2024-10-30 05:41:22] ERROR in weather: Unexpected error: 'NoneType' object is not iterable
+[2024-10-30 05:41:22] ERROR in app: Exception on /api/weather [GET]
+Traceback (most recent call last):
+  File "/home/debian/Projects/weather/backend/api/weather.py", line 20, in get
+    weather_service = WeatherService()
+                      ^^^^^^^^^^^^^^^^
+  File "/home/debian/Projects/weather/backend/service/weather.py", line 26, in __init__
+    for city_info in cities:
+                     ^^^^^^
+TypeError: 'NoneType' object is not iterable
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/debian/.cache/pypoetry/virtualenvs/backend-xUkcKsjJ-py3.12/lib/python3.12/site-packages/flask/app.py", line 880, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/debian/.cache/pypoetry/virtualenvs/backend-xUkcKsjJ-py3.12/lib/python3.12/site-packages/flask/app.py", line 865, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/debian/.cache/pypoetry/virtualenvs/backend-xUkcKsjJ-py3.12/lib/python3.12/site-packages/flask_restx/api.py", line 402, in wrapper
+    resp = resource(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/debian/.cache/pypoetry/virtualenvs/backend-xUkcKsjJ-py3.12/lib/python3.12/site-packages/flask/views.py", line 110, in view
+    return current_app.ensure_sync(self.dispatch_request)(**kwargs)  # type: ignore[no-any-return]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/debian/.cache/pypoetry/virtualenvs/backend-xUkcKsjJ-py3.12/lib/python3.12/site-packages/flask_restx/resource.py", line 41, in dispatch_request
+    resp = meth(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/debian/Projects/weather/backend/api/weather.py", line 31, in get
+    abort(500, {"err_msg": "Internal Server Error"})
+  File "/home/debian/.cache/pypoetry/virtualenvs/backend-xUkcKsjJ-py3.12/lib/python3.12/site-packages/werkzeug/exceptions.py", line 878, in abort
+    _aborter(status, *args, **kwargs)
+  File "/home/debian/.cache/pypoetry/virtualenvs/backend-xUkcKsjJ-py3.12/lib/python3.12/site-packages/werkzeug/exceptions.py", line 863, in __call__
+    raise self.mapping[code](*args, **kwargs)
+werkzeug.exceptions.InternalServerError: 500 Internal Server Error: {'err_msg': 'Internal Server Error'}
+[2024-10-30 05:41:23] ERROR in weather: Unexpected error: 'NoneType' object is not iterable
+[2024-10-30 05:41:23] ERROR in app: Exception on /api/weather [GET]
+Traceback (most recent call last):
+  File "/home/debian/Projects/weather/backend/api/weather.py", line 20, in get
+    weather_service = WeatherService()
+                      ^^^^^^^^^^^^^^^^
+  File "/home/debian/Projects/weather/backend/service/weather.py", line 26, in __init__
+    for city_info in cities:
+                     ^^^^^^
+TypeError: 'NoneType' object is not iterable
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/debian/.cache/pypoetry/virtualenvs/backend-xUkcKsjJ-py3.12/lib/python3.12/site-packages/flask/app.py", line 880, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/debian/.cache/pypoetry/virtualenvs/backend-xUkcKsjJ-py3.12/lib/python3.12/site-packages/flask/app.py", line 865, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/debian/.cache/pypoetry/virtualenvs/backend-xUkcKsjJ-py3.12/lib/python3.12/site-packages/flask_restx/api.py", line 402, in wrapper
+    resp = resource(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/debian/.cache/pypoetry/virtualenvs/backend-xUkcKsjJ-py3.12/lib/python3.12/site-packages/flask/views.py", line 110, in view
+    return current_app.ensure_sync(self.dispatch_request)(**kwargs)  # type: ignore[no-any-return]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/debian/.cache/pypoetry/virtualenvs/backend-xUkcKsjJ-py3.12/lib/python3.12/site-packages/flask_restx/resource.py", line 41, in dispatch_request
+    resp = meth(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/debian/Projects/weather/backend/api/weather.py", line 31, in get
+    abort(500, {"err_msg": "Internal Server Error"})
+  File "/home/debian/.cache/pypoetry/virtualenvs/backend-xUkcKsjJ-py3.12/lib/python3.12/site-packages/werkzeug/exceptions.py", line 878, in abort
+    _aborter(status, *args, **kwargs)
+  File "/home/debian/.cache/pypoetry/virtualenvs/backend-xUkcKsjJ-py3.12/lib/python3.12/site-packages/werkzeug/exceptions.py", line 863, in __call__
+    raise self.mapping[code](*args, **kwargs)
+werkzeug.exceptions.InternalServerError: 500 Internal Server Error: {'err_msg': 'Internal Server Error'}
+[2024-10-30 07:40:34] ERROR in app: Exception on /api/weather [GET]
+Traceback (most recent call last):
+  File "/home/debian/Projects/weather/backend/service/weather.py", line 74, in get_forecasts
+    response = requests.get(self.weather_api, params={
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/ser/python/lib/python3.12/site-packages/requests/api.py", line 73, in get
+    return request("get", url, params=params, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/ser/python/lib/python3.12/site-packages/requests/api.py", line 59, in request
+    return session.request(method=method, url=url, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/ser/python/lib/python3.12/site-packages/requests/sessions.py", line 575, in request
+    prep = self.prepare_request(req)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/ser/python/lib/python3.12/site-packages/requests/sessions.py", line 484, in prepare_request
+    p.prepare(
+  File "/data/ser/python/lib/python3.12/site-packages/requests/models.py", line 367, in prepare
+    self.prepare_url(url, params)
+  File "/data/ser/python/lib/python3.12/site-packages/requests/models.py", line 438, in prepare_url
+    raise MissingSchema(
+requests.exceptions.MissingSchema: Invalid URL 'None': No scheme supplied. Perhaps you meant https://None?
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/debian/Projects/weather/backend/api/weather.py", line 23, in get
+    weather = weather_service.get_forecasts(city)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/debian/Projects/weather/backend/service/weather.py", line 91, in get_forecasts
+    raise WeatherServiceUnavailable(msg=str(e))
+exceptions.exception.WeatherServiceUnavailable
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/debian/.cache/pypoetry/virtualenvs/backend-xUkcKsjJ-py3.12/lib/python3.12/site-packages/flask/app.py", line 880, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/debian/.cache/pypoetry/virtualenvs/backend-xUkcKsjJ-py3.12/lib/python3.12/site-packages/flask/app.py", line 865, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/debian/.cache/pypoetry/virtualenvs/backend-xUkcKsjJ-py3.12/lib/python3.12/site-packages/flask_restx/api.py", line 402, in wrapper
+    resp = resource(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/debian/.cache/pypoetry/virtualenvs/backend-xUkcKsjJ-py3.12/lib/python3.12/site-packages/flask/views.py", line 110, in view
+    return current_app.ensure_sync(self.dispatch_request)(**kwargs)  # type: ignore[no-any-return]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/debian/.cache/pypoetry/virtualenvs/backend-xUkcKsjJ-py3.12/lib/python3.12/site-packages/flask_restx/resource.py", line 41, in dispatch_request
+    resp = meth(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/debian/Projects/weather/backend/api/weather.py", line 28, in get
+    abort(e.status, e.errors)
+  File "/home/debian/.cache/pypoetry/virtualenvs/backend-xUkcKsjJ-py3.12/lib/python3.12/site-packages/werkzeug/exceptions.py", line 878, in abort
+    _aborter(status, *args, **kwargs)
+  File "/home/debian/.cache/pypoetry/virtualenvs/backend-xUkcKsjJ-py3.12/lib/python3.12/site-packages/werkzeug/exceptions.py", line 863, in __call__
+    raise self.mapping[code](*args, **kwargs)
+werkzeug.exceptions.ServiceUnavailable: 503 Service Unavailable: {'err_code': 6103, 'err_meg': "Invalid URL 'None': No scheme supplied. Perhaps you meant https://None?"}
