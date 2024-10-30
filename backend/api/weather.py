@@ -2,8 +2,9 @@ from flask import abort, jsonify
 from flask_restx import Resource, reqparse
 from . import api, weather_model, error_decorators
 from exceptions import *
+from service import WeatherService
 
-
+weather_service = WeatherService()
 
 parser = reqparse.RequestParser()
 parser.add_argument('city', type=str, required=True)
@@ -16,8 +17,6 @@ class Weather(Resource):
     @error_decorators
     def get(self):
         try:
-            from service import WeatherService
-            weather_service = WeatherService()
             args = parser.parse_args()
             city = args['city']
             weather = weather_service.get_forecasts(city)
