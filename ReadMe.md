@@ -6,7 +6,9 @@
 
 ReadMe.pdf包含示例图片
 
+![a1](https://staic.x-labs.net/a1.png)
 
+![a1](https://staic.x-labs.net/a2.png)
 
 ## 技术实现
 
